@@ -1,0 +1,58 @@
+[
+    {
+        "key": "name",
+        "value": "Binary Hotel INT"
+    },
+    {
+        "key": "description",
+        "value": "Welcome to Binary Hotel INT, where modern elegance meets exceptional hospitality. Our hotel is designed to provide a serene and luxurious experience for all our guests."
+    },
+    {
+        "key": "history",
+        "value": [
+            {
+                "key": "established",
+                "value": "2010"
+            },
+            {
+                "key": "background",
+                "value": "Founded by a group of hospitality enthusiasts, Binary Hotel INT has been committed to offering the highest standards of service and comfort. Over the years, we have evolved to meet the needs of our diverse clientele, becoming a preferred destination for both business and leisure travelers."
+            }
+        ]
+    },
+    {
+        "key": "mission",
+        "value": "To provide an unforgettable experience through exceptional service, state-of-the-art facilities, and a commitment to sustainability."
+    },
+    {
+        "key": "uniqueFeatures",
+        "value": [
+            {
+                "feature": "Rooftop Infinity Pool",
+                "description": "Enjoy breathtaking views of the city skyline from our stunning rooftop infinity pool."
+            },
+            {
+                "feature": "Gourmet Restaurant",
+                "description": "Indulge in a culinary journey at our gourmet restaurant, featuring dishes made from locally sourced ingredients."
+            },
+            {
+                "feature": "Spa and Wellness Center",
+                "description": "Rejuvenate your mind and body at our luxurious spa, offering a range of treatments and wellness programs."
+            },
+            {
+                "feature": "Business Facilities",
+                "description": "Our hotel is equipped with state-of-the-art meeting rooms and conference facilities for all your business needs."
+            }
+        ]
+    },
+    {
+        "key": "location",
+        "value": {
+            "address": "123 Luxury Lane, City Center, Country",
+            "contact": {
+                "phone": "+123 456 7890",
+                "email": "info@binaryhotelint.com"
+            }
+        }
+    }
+]

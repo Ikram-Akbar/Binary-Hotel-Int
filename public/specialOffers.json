@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "title": "Summer Getaway",
+        "description": "Enjoy 20% off your stay during the summer months.",
+        "discount": "20%",
+        "validUntil": "2024-09-30",
+        "img": "https://i.ibb.co/VCS0xLg/fernando-alvarez-rodriguez-M7-Gdd-Pq-Jowg-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Weekend Retreat",
+        "description": "Book a weekend stay and get a complimentary breakfast.",
+        "discount": "Free Breakfast",
+        "validUntil": "2024-10-15",
+        "img": "https://i.ibb.co/HrBmrz7/manuel-moreno-DGa0-LQ0y-DPc-unsplash-1.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Family Package",
+        "description": "Stay 3 nights and get the 4th night free for families.",
+        "discount": "Free Night",
+        "validUntil": "2024-11-01",
+        "img": "https://i.ibb.co/xJpqXVz/markus-spiske-g5-ZIXjz-RGds-unsplash.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Honeymoon Special",
+        "description": "Celebrate your love with a romantic package including candlelight dinner.",
+        "discount": "15% off",
+        "validUntil": "2024-12-31",
+        "img": "https://i.ibb.co/wWf9B4F/naomi-hebert-2dc-Yhvb-HV-M-unsplash.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Business Traveler Package",
+        "description": "Special rates for business travelers including complimentary Wi-Fi and breakfast.",
+        "discount": "10% off",
+        "validUntil": "2024-10-31",
+        "img": "https://i.ibb.co/rH20rhW/nathan-cima-lhowk-MU39-QA-unsplash.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Last Minute Deal",
+        "description": "Get up to 30% off for bookings made within 48 hours of check-in.",
+        "discount": "Up to 30% off",
+        "validUntil": "2024-10-05",
+        "img": "https://i.ibb.co/f4m4SzV/rktkn-ss-Oty-GE8-Cy-E-unsplash.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Spa & Wellness Escape",
+        "description": "Enjoy a luxurious spa treatment with your stay.",
+        "discount": "Complimentary Spa",
+        "validUntil": "2024-10-20",
+        "img": "https://i.ibb.co/3fFjz1S/runnyrem-Lfqm-ND-hym8-unsplash.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Autumn Escape",
+        "description": "Save 25% on autumn bookings with beautiful seasonal views.",
+        "discount": "25% off",
+        "validUntil": "2024-11-10",
+        "img": "https://i.ibb.co/fYxt867/sara-sadeghloo-A8bj-Sr-Qg9-CQ-unsplash.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Luxury Suite Deal",
+        "description": "Upgrade to a luxury suite with a 20% discount.",
+        "discount": "20% off Suites",
+        "validUntil": "2024-12-01",
+        "img": "https://i.ibb.co/HD9Jd7V/tony-yakovlenko-l-Dxxe-AJr-Wp-E-unsplash-2.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Early Bird Special",
+        "description": "Book early and save up to 20% on your stay.",
+        "discount": "Up to 20% off",
+        "validUntil": "2024-12-15",
+        "img": "https://i.ibb.co/kDHtfyT/vita-vilcina-Kt-Oid0-FLjq-U-unsplash.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Holiday Season Offer",
+        "description": "Celebrate the holidays with a special package including gifts and festive meals.",
+        "discount": "15% off",
+        "validUntil": "2024-12-31",
+        "img": "https://i.ibb.co/2qV5ccp/frames-for-your-heart-2d4l-AQAlb-DA-unsplash.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Extended Stay Discount",
+        "description": "Stay for 7 nights or more and enjoy a 30% discount.",
+        "discount": "30% off",
+        "validUntil": "2024-12-31",
+        "img": "https://i.ibb.co/nrRfkLv/li-yang-a8i-CZvtr-Hp-Q-unsplash.jpg"
+    },
+    {
+        "id": 13,
+        "title": "City Break Special",
+        "description": "Explore the city with a 10% discount and free city tour.",
+        "discount": "10% off + Free Tour",
+        "validUntil": "2024-11-30",
+        "img": "https://i.ibb.co/0cWMMrG/nik-lanus-YMOHw3-F1-Hdk-unsplash.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Romantic Getaway",
+        "description": "A romantic escape for two with a complimentary bottle of wine.",
+        "discount": "Complimentary Wine",
+        "validUntil": "2024-12-14",
+        "img": "https://i.ibb.co/2nF9kjk/sara-dubler-Koei-7y-Yt-Io-unsplash.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Winter Wonderland",
+        "description": "Book your winter holiday and get 25% off ski passes.",
+        "discount": "25% off Ski Passes",
+        "validUntil": "2025-01-15",
+        "img": "https://images.pexels.com/photos/761268/pexels-photo-761268.jpeg"
+    }
+]

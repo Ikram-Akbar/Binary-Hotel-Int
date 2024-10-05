@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Wine Tasting Night",
+        "date": "2024-10-10",
+        "time": "6:00 PM - 8:00 PM",
+        "description": "Join us for a delightful evening of wine tasting featuring local vineyards. This exclusive event offers a unique opportunity to explore a selection of premium wines, each with its own distinct flavor profile and history. Our knowledgeable sommelier will guide you through the tasting process, providing insights into the various wines' origins, tasting notes, and perfect pairings with food. Guests will enjoy sampling a variety of reds, whites, and perhaps even some sparkling options. Whether you're a wine connoisseur or just starting to explore the world of wine, this event promises to be both informative and enjoyable. Light snacks will also be served to complement the wines, making for a truly immersive experience in the world of viticulture. Don’t miss out on this chance to enhance your palate and enjoy a relaxing evening with fellow wine lovers.",
+        "location": "Hotel Wine Cellar",
+        "price": "$30 per person",
+        "ageRestriction": "21+"
+    },
+    {
+        "id": 2,
+        "name": "Live Jazz Evening",
+        "date": "2024-10-15",
+        "time": "7:00 PM - 10:00 PM",
+        "description": "Enjoy a night of smooth jazz with live performances from talented artists. This enchanting evening will feature a lineup of local jazz musicians who will serenade you with classic and contemporary tunes. The ambiance will be cozy and inviting, making it the perfect setting for a relaxing night out. As you sip on our specially crafted cocktails or your favorite beverage, let the soothing melodies transport you to a different era. The event will include both solo performances and group ensembles, showcasing the diverse talents of our featured artists. Whether you’re a long-time jazz enthusiast or simply looking for a memorable night out, this event will surely delight your senses. Don’t forget to bring your friends and family to share in the joy of live music, great company, and a night to remember. Seats are limited, so make sure to arrive early to secure the best spots and immerse yourself in the rich sounds of jazz.",
+        "location": "Hotel Rooftop",
+        "price": "Free",
+        "ageRestriction": "All ages"
+    },
+    {
+        "id": 3,
+        "name": "Cooking Class: Local Cuisine",
+        "date": "2024-10-20",
+        "time": "2:00 PM - 4:00 PM",
+        "description": "Learn to cook traditional dishes with our expert chef in a fun and interactive class. This hands-on cooking experience will guide you through the preparation of some of the most beloved local dishes. Our chef will share not only the recipes but also the stories behind each dish, revealing the cultural significance and unique ingredients that make these meals special. Participants will have the opportunity to work in pairs, ensuring that everyone gets a chance to engage in the cooking process. We’ll cover everything from marinating meats to crafting the perfect sauces, and even dessert! At the end of the class, everyone will gather around the table to enjoy the delicious creations made during the session. This is not just a cooking class; it’s an experience that fosters community and connection through the art of cooking. Come ready to learn, share, and savor the fruits of your labor, all while making lasting memories with fellow food enthusiasts.",
+        "location": "Hotel Kitchen",
+        "price": "$50 per person",
+        "ageRestriction": "18+"
+    },
+    {
+        "id": 4,
+        "name": "Guided City Tour",
+        "date": "2024-10-25",
+        "time": "10:00 AM - 1:00 PM",
+        "description": "Explore the rich history and culture of our city with a guided walking tour. This comprehensive tour will take you through some of the most iconic landmarks and hidden gems that define our city’s character. Led by a knowledgeable local guide, you will learn about the historical significance of each site, along with fascinating anecdotes and stories that bring the past to life. The tour will include visits to museums, parks, and architectural marvels, providing plenty of opportunities for stunning photographs. Along the way, you’ll also get to sample some local treats, giving you a taste of the city’s culinary delights. The walk is leisurely, allowing time for questions and interaction with the guide. This tour is perfect for both tourists and locals looking to rediscover the beauty of their surroundings. Wear comfortable shoes and prepare for an engaging journey through the history and culture that shape our community today.",
+        "location": "Meet at Hotel Lobby",
+        "price": "$20 per person",
+        "ageRestriction": "All ages"
+    },
+    {
+        "id": 5,
+        "name": "Outdoor Movie Night",
+        "date": "2024-10-30",
+        "time": "8:00 PM - 10:00 PM",
+        "description": "Join us for an outdoor movie screening under the stars. Bring your blankets and enjoy a cozy night of cinema in a beautiful setting. This family-friendly event will feature a selection of classic films, chosen to appeal to audiences of all ages. As the sun sets, settle in on the lawn with your loved ones and prepare for a magical evening filled with laughter and nostalgia. Popcorn and refreshments will be available for purchase, ensuring that you have everything you need to enjoy the show. Whether you’re coming with friends, family, or a special someone, this is the perfect way to unwind and enjoy the simple pleasures of life. Don’t forget to bring your favorite snacks and drinks, and get ready for a night filled with entertainment and community spirit. Check our schedule for the movie lineup, and arrive early to grab the best viewing spots. We can’t wait to share this cinematic experience with you!",
+        "location": "Hotel Garden",
+        "price": "Free",
+        "ageRestriction": "All ages"
+    },
+    {
+        "id": 6,
+        "name": "Yoga Retreat",
+        "date": "2024-11-05",
+        "time": "8:00 AM - 10:00 AM",
+        "description": "Start your day with tranquility and rejuvenation in our yoga session. This early morning retreat is designed for all skill levels, from beginners to experienced yogis. Join our certified instructor as they guide you through a series of gentle stretches and breathing exercises that will help you center yourself and prepare for the day ahead. Set against the serene backdrop of our hotel garden, you’ll find peace and relaxation as you connect with nature and your inner self. The session will include mindfulness techniques to help reduce stress and improve mental clarity. Mats and equipment will be provided, so just bring your enthusiasm and a willingness to embrace a healthier lifestyle. This yoga retreat is a perfect way to unwind, find balance, and meet like-minded individuals who share your passion for wellness. Come join us and discover the transformative power of yoga in a supportive and welcoming environment.",
+        "location": "Hotel Garden",
+        "price": "$15 per person",
+        "ageRestriction": "All ages"
+    },
+    {
+        "id": 7,
+        "name": "Photography Workshop",
+        "date": "2024-11-10",
+        "time": "1:00 PM - 4:00 PM",
+        "description": "Enhance your photography skills with hands-on guidance from a professional. This workshop is perfect for budding photographers looking to take their skills to the next level. Our expert instructor will cover various topics including composition, lighting, and editing techniques to help you capture stunning images. Participants will have the chance to practice their skills during a photo walk around the hotel grounds, where you can experiment with different settings and receive real-time feedback. By the end of the session, you’ll have a deeper understanding of your camera and how to make the most of it, as well as a collection of photographs you can be proud of. Whether you’re using a smartphone or a DSLR, this workshop is designed to be accessible and beneficial for all. Come prepared to learn, shoot, and share your creative vision with others in a supportive environment.",
+        "location": "Hotel Conference Room",
+        "price": "$40 per person",
+        "ageRestriction": "16+"
+    },
+    {
+        "id": 8,
+        "name": "Seasonal Craft Fair",
+        "date": "2024-11-15",
+        "time": "10:00 AM - 5:00 PM",
+        "description": "Discover unique handmade crafts from local artisans at our seasonal fair. This vibrant event showcases the creativity and talent of local craftspeople, featuring a wide range of handmade items, from jewelry and pottery to textiles and artwork. It’s the perfect opportunity to find unique gifts for your loved ones or to treat yourself to something special. In addition to browsing the various stalls, attendees can participate in hands-on workshops throughout the day, where you can try your hand at crafting your own items under the guidance of skilled artisans. Enjoy live music and refreshments as you explore the fair, making it a fun-filled day for the whole family. Bring your friends and support local artists while enjoying a festive atmosphere that celebrates creativity and community. Mark your calendars and join us for this exciting event that promises to inspire and delight!",
+        "location": "Hotel Lobby",
+        "price": "Free",
+        "ageRestriction": "All ages"
+    }
+]

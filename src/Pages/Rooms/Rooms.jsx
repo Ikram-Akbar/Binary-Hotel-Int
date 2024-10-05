@@ -1,9 +1,10 @@
 
 const Rooms = () => {
     return (
-        <>
-            <h1>Rooms</h1>
-        </>
-    )
-}
+        <div>
+            <h1>rooms are available</h1>
+        </div>
+    );
+};
+
 export default Rooms;
