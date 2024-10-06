@@ -1,7 +1,38 @@
-import { Form, Button, Row, Col, Container,} from 'react-bootstrap';
+import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { Form, Button, Row, Col, Container, } from 'react-bootstrap';
 import { FaUser, FaEnvelope, FaLock, FaPhone, FaCalendarAlt } from 'react-icons/fa';
+import auth from '../../Firebase/firebase.config';
+import { useContext } from 'react';
+import { AuthContext } from '../../Providers/AuthProvider';
+import toast from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
 
 const Register = () => {
+    const { register_with_email_password } = useContext(AuthContext);
+    const navigate = useNavigate()
+
+    const handleOnRegister = (e) => {
+        e.preventDefault();
+        const formData = new FormData(e.target);
+        const formValues = Object.fromEntries(formData.entries());
+        const { email, password, confirmPassword } = formValues;
+
+        if (password !== confirmPassword) {
+            toast.error("password are not match");
+            return;
+        }
+
+        register_with_email_password(email, password)
+            .then(() => {
+                toast.success("user created successfully");
+                navigate("/login");
+                e.target.reset();
+            })
+            .catch((err) => {
+                toast.error(err.message);
+            })
+    }
+
     return (
         <Container className='my-5 '>
             <Row className='justify-content-center'>
@@ -12,7 +43,7 @@ const Register = () => {
                         <hr />
                     </div>
 
-                    <Form>
+                    <Form onSubmit={handleOnRegister}>
                         <Row className="mb-3">
                             <Col md={6}>
                                 <Form.Group controlId="formFirstName">
@@ -20,6 +51,7 @@ const Register = () => {
                                         <FaUser /> First Name
                                     </Form.Label>
                                     <Form.Control
+                                        name='firstName'
                                         type="text"
                                         placeholder="Enter your first name"
                                         className='border-primary'
@@ -32,6 +64,7 @@ const Register = () => {
                                         <FaUser /> Last Name
                                     </Form.Label>
                                     <Form.Control
+                                        name='lastName'
                                         type="text"
                                         placeholder="Enter your last name"
                                         className='border-primary'
@@ -47,6 +80,7 @@ const Register = () => {
                                         <FaEnvelope /> Email Address
                                     </Form.Label>
                                     <Form.Control
+                                        name='email'
                                         type="email"
                                         placeholder="Enter your email"
                                         className='border-primary'
@@ -59,6 +93,7 @@ const Register = () => {
                                         <FaPhone /> Phone Number
                                     </Form.Label>
                                     <Form.Control
+                                        name='phoneNumber'
                                         type="tel"
                                         placeholder="Enter your phone number"
                                         className='border-primary'
@@ -74,6 +109,7 @@ const Register = () => {
                                         <FaLock /> Password
                                     </Form.Label>
                                     <Form.Control
+                                        name='password'
                                         type="password"
                                         placeholder="Enter your password"
                                         className='border-primary'
@@ -86,6 +122,7 @@ const Register = () => {
                                         <FaLock /> Confirm Password
                                     </Form.Label>
                                     <Form.Control
+                                        name='confirmPassword'
                                         type="password"
                                         placeholder="Confirm your password"
                                         className='border-primary'
@@ -100,13 +137,19 @@ const Register = () => {
                                     <Form.Label>
                                         <FaCalendarAlt /> Date of Birth
                                     </Form.Label>
-                                    <Form.Control type="date" className='border-primary' />
+                                    <Form.Control
+                                        name='dateOfBirth'
+                                        type="date"
+                                        className='border-primary' />
                                 </Form.Group>
                             </Col>
                             <Col md={6}>
                                 <Form.Group controlId="formGender">
                                     <Form.Label>Gender</Form.Label>
-                                    <Form.Control as="select" className='border-primary'>
+                                    <Form.Control
+                                        name='gender'
+                                        as="select"
+                                        className='border-primary'>
                                         <option>Choose...</option>
                                         <option>Male</option>
                                         <option>Female</option>
@@ -121,6 +164,7 @@ const Register = () => {
                                 <Form.Group controlId="formAddress">
                                     <Form.Label>Address</Form.Label>
                                     <Form.Control
+                                        name='address'
                                         type="text"
                                         placeholder="Enter your address"
                                         className='border-primary'
@@ -131,6 +175,7 @@ const Register = () => {
 
                         <Form.Group controlId="formTerms" className="mb-3">
                             <Form.Check
+                                name='formCheck'
                                 type="checkbox"
                                 label="I agree to the terms and conditions"
                             />

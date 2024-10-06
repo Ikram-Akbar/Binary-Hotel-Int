@@ -10,7 +10,7 @@ const Events = () => {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await fetch("/public/events.json");
+        const response = await fetch("/events.json");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

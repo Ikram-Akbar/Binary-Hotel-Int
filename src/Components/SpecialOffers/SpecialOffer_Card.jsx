@@ -7,7 +7,7 @@ const SpecialOffer_Card = ({ offer }) => {
 
     return (
         <Card className="mb-4 text-center" >
-            <Card.Img style={{ height: '200px' }} variant="top" src={img} alt={title} rounded />
+            <Card.Img style={{ height: '200px' }} variant="top" src={img} alt={title} rounded={true} />
             <Card.Body>
                 <Card.Title className="fw-bold text-primary">
                     <FaTag className="me-2" /> {title}

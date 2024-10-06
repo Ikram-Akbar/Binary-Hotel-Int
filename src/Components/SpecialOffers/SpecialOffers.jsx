@@ -11,7 +11,7 @@ const SpecialOffers = () => {
     const loadIncrement = 4;
 
     useEffect(() => {
-        fetch("/public/specialOffers.json")
+        fetch("/specialOffers.json")
             .then((data) => data.json())
             .then((res) => {
                 setAllOffers(res);

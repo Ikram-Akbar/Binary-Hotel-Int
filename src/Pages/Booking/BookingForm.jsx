@@ -15,7 +15,7 @@ const BookingForm = () => {
       <Row className="justify-content-center">
         <Col md={10}>
           <div className="p-4">
-            <Alert variant="primary" className="text-center">
+            <Alert variant="primary" className="text-center display-5 text-primary">
               <h2 className="text-center fw-bold">Reserve Your Room</h2>
               <p className="lead text-muted">Please fill out the form below to secure your stay with us. We look forward to welcoming you!</p>
             </Alert>
