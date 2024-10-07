@@ -63,7 +63,7 @@ const Events = () => {
         <Row>
           <Col>
             <div className="text-center py-4">
-              <h2 className="display-6 text-primary fw-bold">
+              <h2 className=" text-primary fw-bold">
                 Upcoming Events
               </h2>
               <p className="lead text-muted">
@@ -74,7 +74,7 @@ const Events = () => {
               <Slider {...settings}>
                 {events.map((event) => (
                   <div key={event.id} style={{ padding: "20px" }}>
-                    <Card className="shadow-lg rounded-lg h-100 mx-2 text-center border-0">
+                    <Card className=" border h-100 mx-2 text-center ">
                       <Card.Body className="d-flex flex-column justify-content-between">
                         <Card.Title className="text-dark fw-bold">
                           {event.name}

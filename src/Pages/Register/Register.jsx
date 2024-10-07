@@ -1,16 +1,14 @@
-import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { useNavigate } from "react-router-dom";
 import { Form, Button, Row, Col, Container, } from 'react-bootstrap';
 import { FaUser, FaEnvelope, FaLock, FaPhone, FaCalendarAlt } from 'react-icons/fa';
-import auth from '../../Firebase/firebase.config';
 import { useContext } from 'react';
 import { AuthContext } from '../../Providers/AuthProvider';
 import toast from 'react-hot-toast';
-import { useNavigate } from 'react-router-dom';
+
 
 const Register = () => {
     const { register_with_email_password } = useContext(AuthContext);
-    const navigate = useNavigate()
-
+    const navigate = useNavigate();
     const handleOnRegister = (e) => {
         e.preventDefault();
         const formData = new FormData(e.target);
@@ -21,16 +19,15 @@ const Register = () => {
             toast.error("password are not match");
             return;
         }
-
         register_with_email_password(email, password)
             .then(() => {
-                toast.success("user created successfully");
-                navigate("/login");
+                navigate("/login")
                 e.target.reset();
             })
             .catch((err) => {
                 toast.error(err.message);
             })
+
     }
 
     return (

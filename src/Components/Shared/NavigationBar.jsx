@@ -1,7 +1,14 @@
+import { useContext } from 'react';
 import { Navbar, Nav, Container, NavDropdown, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../Providers/AuthProvider';
+import OffCanvas_User from '../OffCanvas/OffCanvas_User';
 
 const NavigationBar = () => {
+    const placement = "end";
+    const { user } = useContext(AuthContext);
+    console.log(user);
+
     const brandName = "Hotel Binary INT";
     const navItems = [
         { path: '/', label: 'Home' },
@@ -36,12 +43,22 @@ const NavigationBar = () => {
                             ))}
                         </NavDropdown>
                     </Nav>
-                    <Button variant="primary"  className="ms-3" as={Link} to="/login">
-                        Login
-                    </Button>
+                    {
+                        user ? (
+                            <>
+                                <OffCanvas_User placement="end" />
+                            </>
+                        ) : (
+                            <>
+                                <Button variant="primary" className="ms-3" as={Link} to="/login">
+                                    Login
+                                </Button>
+                            </>
+                        )
+                    }
                 </Navbar.Collapse>
             </Container>
-        </Navbar>
+        </Navbar >
     );
 };
 

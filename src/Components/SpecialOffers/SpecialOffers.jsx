@@ -36,7 +36,7 @@ const SpecialOffers = () => {
             <Row>
                 <Col>
                     <div className="text-center py-4">
-                        <h2 className="display-6 text-primary fw-bold">
+                        <h2 className=" text-primary fw-bold">
                             Exclusive Special Offers Just for You!
                         </h2>
                         <p className="lead text-muted">

@@ -1,5 +1,6 @@
 import Banner from "../../Components/Banner/Banner";
 import Events from "../../Components/Events/Events";
+import NewsLetter from "../../Components/NewsLatter/NewsLatter";
 import SpecialOffers from "../../Components/SpecialOffers/SpecialOffers";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
             <Banner />
             <Events />
             <SpecialOffers />
+            <NewsLetter/>
         </div>
     );
 };
