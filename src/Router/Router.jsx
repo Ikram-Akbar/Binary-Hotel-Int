@@ -9,6 +9,7 @@ import NotFound from "../Pages/NotFound/NotFound";
 import Register from "../Pages/Register/Register";
 import BookingForm from "../Pages/Booking/BookingForm";
 import EventsDetails from "../Components/Events/EventsDetails";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "booking",
-                element: <BookingForm />
+                element:<PrivateRoute><BookingForm/></PrivateRoute>
             },
             {
                 path: "about",

@@ -5,7 +5,7 @@ import { AuthContext } from '../../Providers/AuthProvider';
 import OffCanvas_User from '../OffCanvas/OffCanvas_User';
 
 const NavigationBar = () => {
-    const placement = "end";
+
     const { user } = useContext(AuthContext);
     console.log(user);
 
@@ -13,7 +13,8 @@ const NavigationBar = () => {
     const navItems = [
         { path: '/', label: 'Home' },
         { path: '/rooms', label: 'Rooms' },
-        { path: '/booking', label: 'Booking' },
+        // { path: '/booking', label: 'Booking' },
+        ...(user ? [{ path: "/booking", name: "Booking" }] : []),
     ];
 
     const aboutItems = [
