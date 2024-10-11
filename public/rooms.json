@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "roomName": "Deluxe Suite",
+        "pricePerNight": 250,
+        "rating": 4.8,
+        "imageUrl": "https://i.ibb.co.com/Tk2fFK9/frames-for-your-heart-Fqqi-Av-Jejto-unsplash-2.jpg",
+        "description": "The Deluxe Suite offers the perfect blend of luxury and comfort, ideal for travelers seeking a refined experience. Featuring elegant decor, this suite boasts a king-size bed, a spacious seating area, and floor-to-ceiling windows providing breathtaking city views. Guests can unwind in the en-suite bathroom equipped with a deep-soaking tub and rainfall shower. High-speed Wi-Fi, a flat-screen TV, and a minibar are included to ensure convenience. Whether you're here for business or leisure, the Deluxe Suite promises a memorable stay with premium amenities like 24-hour room service and access to the exclusive rooftop pool and spa facilities.",
+        "amenities": [
+            "Free Wi-Fi",
+            "King Size Bed",
+            "Jacuzzi",
+            "City View"
+        ]
+    },
+    {
+        "id": 2,
+        "roomName": "Oceanfront Room",
+        "pricePerNight": 300,
+        "rating": 4.9,
+        "imageUrl": "https://i.ibb.co.com/phB2hM6/minh-pham-7p-CFUyb-P-P8-unsplash.jpg",
+        "description": "Wake up to the sound of waves in our Oceanfront Room, offering panoramic ocean views from a private balcony. Perfect for couples or solo travelers, the room is designed to create a tranquil atmosphere with modern coastal decor. Relax in the queen-size bed or the cozy lounge area. The bathroom features a walk-in shower with luxury toiletries. Start your day with a complimentary breakfast, and stay connected with free high-speed Wi-Fi. Unwind after a day at the beach by watching the sunset from your balcony or enjoy room service while taking in the serene ocean view.",
+        "amenities": [
+            "Private Balcony",
+            "Ocean View",
+            "Free Wi-Fi",
+            "Breakfast Included"
+        ]
+    },
+    {
+        "id": 3,
+        "roomName": "Penthouse Suite",
+        "pricePerNight": 500,
+        "rating": 5.0,
+        "imageUrl": "https://i.ibb.co.com/swrdfZk/naomi-hebert-MP0bga-S-d1c-unsplash.jpg",
+        "description": "The Penthouse Suite offers the pinnacle of luxury, occupying the top floor of the hotel with sweeping views of the skyline. The suite features a spacious living area, private terrace, and an exclusive outdoor plunge pool. The master bedroom includes a king-size bed with premium linens and an en-suite bathroom with a spa-like ambiance, complete with a Jacuzzi and rain shower. Guests enjoy 24/7 butler service, making this the ultimate retreat for those seeking privacy and indulgence. Perfect for special occasions or business travel, the suite also includes high-speed Wi-Fi, entertainment systems, and complimentary breakfast daily.",
+        "amenities": [
+            "Private Pool",
+            "King Size Bed",
+            "City View",
+            "24/7 Butler Service"
+        ]
+    },
+    {
+        "id": 4,
+        "roomName": "Cozy Cabin",
+        "pricePerNight": 150,
+        "rating": 4.6,
+        "imageUrl": "https://i.ibb.co.com/5G8RFQY/aaron-huber-G7s-E2-S4-Lab4-unsplash.jpg",
+        "description": "The Cozy Cabin offers a rustic yet modern experience, nestled in the heart of nature, perfect for travelers who want to disconnect and unwind. This one-bedroom cabin includes a fireplace, a queen-size bed, and a comfortable seating area with views of the surrounding mountains. The kitchen area is fully equipped for preparing meals, and the outdoor deck is ideal for enjoying a morning coffee or stargazing at night. Whether you're seeking adventure or relaxation, the cabin provides the comfort of home with high-speed Wi-Fi, streaming services, and a selection of books and games for cozy nights in.",
+        "amenities": [
+            "Fireplace",
+            "Mountain View",
+            "Free Wi-Fi",
+            "Breakfast Included"
+        ]
+    },
+    {
+        "id": 5,
+        "roomName": "Luxury Loft",
+        "pricePerNight": 350,
+        "rating": 4.7,
+        "imageUrl": "https://i.ibb.co.com/xmY93Hx/blake-woolwine-9bq7-0nvz-Xs-unsplash.jpg",
+        "description": "The Luxury Loft is a spacious, modern accommodation designed for urban explorers and business travelers alike. This stylish loft features high ceilings, large windows, and contemporary furnishings that create an airy and inviting space. Guests can relax in the plush living area, sleep comfortably in the queen-size bed, or work from the well-equipped desk with high-speed internet access. The bathroom includes a rain shower and luxury toiletries. Located in the heart of the city, the loft offers easy access to top attractions, restaurants, and nightlife. Enjoy your stay with full amenities including rooftop access and concierge services.",
+        "amenities": [
+            "Loft-Style Room",
+            "Free Wi-Fi",
+            "City View",
+            "Rooftop Access"
+        ]
+    },
+    {
+        "id": 6,
+        "roomName": "Serenity Suite",
+        "pricePerNight": 275,
+        "rating": 4.8,
+        "imageUrl": "https://i.ibb.co.com/ZLcrXyK/christopher-jolly-Gqb-U78bd-JFM-unsplash.jpg",
+        "description": "The Serenity Suite offers a peaceful escape from the hustle and bustle of everyday life. Featuring stunning lake views, this suite is designed to create a calm and relaxing atmosphere. The king-size bed is complemented by soft linens and a selection of pillows for the ultimate comfort. The en-suite bathroom includes a deep-soaking tub and rainfall shower. Guests can enjoy complimentary spa access during their stay, perfect for unwinding after a long day. A private balcony allows guests to take in the views while sipping a glass of wine or enjoying their morning coffee in peace.",
+        "amenities": [
+            "Lake View",
+            "King Size Bed",
+            "Free Wi-Fi",
+            "Complimentary Spa Access"
+        ]
+    },
+    {
+        "id": 7,
+        "roomName": "Eco-friendly Haven",
+        "pricePerNight": 200,
+        "rating": 4.5,
+        "imageUrl": "https://i.ibb.co.com/Bsvgv7S/frames-for-your-heart-8-V45f-Gy-Wz4-unsplash.jpg",
+        "description": "Stay green in our Eco-friendly Haven, designed for sustainability without compromising on comfort. This room features energy-efficient lighting, solar-powered amenities, and organic bedding made from sustainable materials. Guests can enjoy modern conveniences like a queen-size bed, free Wi-Fi, and a smart TV, while knowing their carbon footprint is minimized. The room includes a private balcony overlooking lush gardens, perfect for nature lovers. The en-suite bathroom features eco-friendly toiletries and a walk-in shower. Located near the eco-park, guests can easily access hiking trails and nature activities while staying in this environmentally conscious room.",
+        "amenities": [
+            "Solar Power",
+            "Organic Toiletries",
+            "Free Wi-Fi",
+            "Garden View"
+        ]
+    },
+    {
+        "id": 8,
+        "roomName": "Rustic Retreat",
+        "pricePerNight": 175,
+        "rating": 4.7,
+        "imageUrl": "https://i.ibb.co.com/Tk2fFK9/frames-for-your-heart-Fqqi-Av-Jejto-unsplash-2.jpg",
+        "description": "The Rustic Retreat offers a cozy atmosphere perfect for those looking to escape into nature. Located in the mountains, this room provides stunning views and a warm, cabin-like feel. The decor features wooden accents and a fireplace, making it an ideal spot for relaxation. Guests can enjoy a private terrace with panoramic views of the surrounding landscape. The room includes a queen-size bed, free Wi-Fi, and a complimentary breakfast served in-room. Whether you're looking to explore the nearby hiking trails or simply relax by the fire, the Rustic Retreat offers a peaceful getaway in a picturesque setting.",
+        "amenities": [
+            "Mountain View",
+            "Fireplace",
+            "Free Breakfast",
+            "Free Wi-Fi"
+        ]
+    },
+    {
+        "id": 9,
+        "roomName": "Modern Executive Suite",
+        "pricePerNight": 400,
+        "rating": 4.9,
+        "imageUrl": "https://i.ibb.co.com/qj5L2LQ/francesca-tosolini-8x-An1-QJU7gk-unsplash.jpg",
+        "description": "The Modern Executive Suite is designed with business travelers in mind, offering a sleek and contemporary space to work and relax. The suite features a king-size bed, a spacious work desk with ergonomic seating, and high-speed Wi-Fi to stay connected. Guests can enjoy the comfort of the lounge area with a flat-screen TV and access to international channels. The en-suite bathroom includes a walk-in shower with luxury amenities. Located on the executive floor, guests have access to a private lounge for meetings and networking. Enjoy complimentary breakfast and evening cocktails at the executive lounge during your stay.",
+        "amenities": [
+            "Free Wi-Fi",
+            "City View",
+            "Meeting Room Access",
+            "Mini Bar"
+        ]
+    },
+    {
+        "id": 10,
+        "roomName": "Family Suite",
+        "pricePerNight": 275,
+        "rating": 4.7,
+        "imageUrl": "https://i.ibb.co.com/wyW3SxQ/christopher-jolly-Gqb-U78bd-JFM-unsplash.jpg",
+        "description": "The Family Suite is perfect for traveling families, offering ample space and comfort for everyone. This suite includes two bedrooms, one with a king-size bed for adults and another with twin beds for children. The living area is furnished with a sofa and a dining table, ideal for family meals or game nights. The suite features a full kitchen equipped with modern appliances, allowing for in-room dining convenience. Enjoy access to family-friendly amenities, including an outdoor pool, playground, and kid's club. The en-suite bathroom includes a walk-in shower, and the suite offers stunning views of the hotel's gardens.",
+        "amenities": [
+            "Two Bedrooms",
+            "Full Kitchen",
+            "Outdoor Pool",
+            "Kid's Club"
+        ]
+    }
+]

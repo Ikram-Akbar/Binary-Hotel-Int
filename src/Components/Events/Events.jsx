@@ -10,7 +10,7 @@ const Events = () => {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await fetch("/events.json");
+        const response = await fetch("http://localhost:5001/events");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -92,7 +92,7 @@ const Events = () => {
                       <Card.Footer className="bg-transparent border-0">
                         <Button
                           as={Link}
-                          to={`/events/${event.id}`}
+                          to={`/events/${event._id}`}
                           variant="outline-primary"
                         >
                           View Details

@@ -14,15 +14,8 @@ const EventDetail = ({ icon: Icon, label, value }) => (
 );
 
 const EventsDetails = () => {
-    const data = useLoaderData();
-    const { id } = useParams();
-    const intId = parseInt(id);
-    const eventData = data.find((d) => d.id === intId);
-
-    if (!eventData) {
-        return <p>Event not found.</p>;
-    }
-
+    const eventData = useLoaderData();
+    // console.log(eventData);
     return (
         <Container className="my-5">
             <Row>

@@ -10,11 +10,12 @@ import {
 import { AuthContext } from "../../Providers/AuthProvider";
 import { MdOutlineVerifiedUser } from "react-icons/md";
 import { GoUnverified } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const OffCanvas_User = ({ placement }) => {
   const imgURL = "https://placehold.co/600x400";
   const { user, logout_current_user } = useContext(AuthContext);
-  console.log(user);
+  // console.log(user);
 
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -53,6 +54,9 @@ const OffCanvas_User = ({ placement }) => {
           <Card.Body>
             <Card.Link as={Button} onClick={handle_LogOut}>
               Logout
+            </Card.Link>
+            <Card.Link as={Link} to="/admin/">
+              Go To Admin Dashboard
             </Card.Link>
           </Card.Body>
         </Card>

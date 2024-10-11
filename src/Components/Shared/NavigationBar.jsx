@@ -7,14 +7,14 @@ import OffCanvas_User from '../OffCanvas/OffCanvas_User';
 const NavigationBar = () => {
 
     const { user } = useContext(AuthContext);
-    console.log(user);
+    // console.log(user);
 
     const brandName = "Hotel Binary INT";
     const navItems = [
         { path: '/', label: 'Home' },
         { path: '/rooms', label: 'Rooms' },
-        // { path: '/booking', label: 'Booking' },
-        ...(user ? [{ path: "/booking", name: "Booking" }] : []),
+        { path: '/booking', label: 'Booking' },
+        // ...(user ? [{ path: "/booking", name: "Booking" }] : []),
     ];
 
     const aboutItems = [
