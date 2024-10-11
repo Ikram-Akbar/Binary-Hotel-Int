@@ -27,6 +27,15 @@ const AddEvents = () => {
         console.log(data);
         if (data.acknowledged == true) {
           toast.success("Event added to database");
+         setFormData({
+           name: "",
+           date: "",
+           time: "",
+           description: "",
+           price: "",
+           ageRestriction: "",
+           location: "",
+         });
         }
       })
       .catch((err) => {

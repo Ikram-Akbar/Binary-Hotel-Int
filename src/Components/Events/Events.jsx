@@ -73,7 +73,7 @@ const Events = () => {
             <div className="slider-container " style={{ overflowX: "hidden" }}>
               <Slider {...settings}>
                 {events.map((event) => (
-                  <div key={event.id} style={{ padding: "20px" }}>
+                  <div key={event._id} style={{ padding: "20px" }}>
                     <Card className=" border h-100 mx-2 text-center ">
                       <Card.Body className="d-flex flex-column justify-content-between">
                         <Card.Title className="text-dark fw-bold">

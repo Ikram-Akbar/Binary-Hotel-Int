@@ -1,17 +1,22 @@
-import React from "react";
-import { Button, Col, Container, Row, Table } from "react-bootstrap";
+import React, { useState } from "react";
+import { Col, Container, Row, Table } from "react-bootstrap";
 import { useLoaderData } from "react-router-dom";
 import EventTable from "../EventTable/EventTable";
 
 const AllEvents = () => {
   const loadedEvents = useLoaderData();
-  console.log(loadedEvents);
+  const [events, setEvents] = useState(loadedEvents);
+
+  const onDelete = (id) => {
+    const restEvents = events.filter((event) => event._id !== id);
+    setEvents(restEvents);
+  };
 
   return (
     <div>
-      <h6>total events : {loadedEvents.length} </h6>
       <Container>
         <Row>
+          <h6>Total Events : {events.length} </h6>
           <Col>
             <Table striped bordered hover>
               <thead>
@@ -28,8 +33,13 @@ const AllEvents = () => {
                 </tr>
               </thead>
               <tbody>
-                {loadedEvents.map((evnt, idx) => (
-                  <EventTable key={evnt._id} evnt={evnt} idx={idx} />
+                {events.map((evnt, idx) => (
+                  <EventTable
+                    key={evnt._id}
+                    evnt={evnt}
+                    onDelete={onDelete}
+                    idx={idx}
+                  />
                 ))}
               </tbody>
             </Table>

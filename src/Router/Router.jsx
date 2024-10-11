@@ -15,6 +15,7 @@ import AddEvents from "../Pages/Dashboard/Events/AddEvents/AddEvents";
 import AddSpecialOffers from "../Pages/Dashboard/AddSpecialOffers/AddSpecialOffers";
 import AdminHome from "../Pages/Dashboard/AdminHome/AdminHome";
 import AllEvents from "../Pages/Dashboard/Events/AllEvents/AllEvents";
+import UpdateEvents from "../Pages/Dashboard/Events/UpdateEvents/UpdateEvents";
 
 const router = createBrowserRouter([
   {
@@ -87,9 +88,7 @@ const router = createBrowserRouter([
       {
         path: "allEvents",
         loader: async () => {
-          const response = await fetch(
-            `http://localhost:5001/events`
-          );
+          const response = await fetch(`http://localhost:5001/events`);
           return response.json();
         },
         element: <AllEvents />,
@@ -97,6 +96,16 @@ const router = createBrowserRouter([
       {
         path: "addEvents",
         element: <AddEvents />,
+      },
+      {
+        path: "updateEvents/:id",
+        loader: async ({ params }) => {
+          const response = await fetch(
+            `http://localhost:5001/events/${params.id}`
+          );
+          return response.json();
+        },
+        element: <UpdateEvents />,
       },
       {
         path: "addSpecialOffers",

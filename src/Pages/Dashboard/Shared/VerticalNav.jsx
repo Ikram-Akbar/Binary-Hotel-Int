@@ -33,7 +33,7 @@ const VerticalNav = () => {
 
           <Accordion>
             <Accordion.Item eventKey="0">
-              <Accordion.Header> All Events</Accordion.Header>
+              <Accordion.Header> Events</Accordion.Header>
               <Accordion.Body>
                 <Nav.Link
                   as={Link}
